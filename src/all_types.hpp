@@ -2216,7 +2216,6 @@ struct ZigVar {
     Scope *parent_scope;
     Scope *child_scope;
     LLVMValueRef param_value_ref;
-    size_t mem_slot_index;
     IrExecutable *owner_exec;
 
     // In an inline loop, multiple variables may be created,

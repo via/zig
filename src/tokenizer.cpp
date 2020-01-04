@@ -1210,6 +1210,7 @@ void tokenize(Buf *buf, Tokenization *out) {
                         t.exp_add_amt = 3;
                         t.state = TokenizeStateNumber;
                         break;
+                    case 'X':
                     case 'x':
                         t.radix = 16;
                         t.exp_add_amt = 4;
